@@ -15,9 +15,12 @@
  */
 package com.example.dessertclicker.ui.theme
 
-import androidx.compose.ui.graphics.Color
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.Shapes
+import androidx.compose.ui.unit.dp
 
-val Purple200 = Color(0xFFBB86FC)
-val Purple700 = Color(0xFF00574B)
-val Pink600 = Color(0xFFD81B60)
-val Green600 = Color(0xFF008577)
+val Shapes = Shapes(
+    small = androidx.compose.foundation.shape.RoundedCornerShape(4.dp),
+    medium = androidx.compose.foundation.shape.RoundedCornerShape(4.dp),
+    large = androidx.compose.foundation.shape.RoundedCornerShape(0.dp)
+)
